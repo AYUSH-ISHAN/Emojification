@@ -18,5 +18,15 @@ https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression
  
  # <h2>LIBRARY USED:</h2>
  
- * Expression maping using the [dlib-opencv library](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) which plots points on the user's face helpful in training the model 
+Expression maping using the [dlib-opencv library](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) which plots landmarks on the  face. Facial landmarks are used to localize and represent salient regions of the face, such as:
+
+ 
+ * Eyes<br>
+ * Eyebrows<br>
+ * Nose<br>
+ * Mouth<br>
+ * Jawline<br>
+ These points are quite sensitive to emotions. So, we used these landmarks to train our model.
+ 
+ <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/facial_landmarks_example_01_result.jpg" height = "512" width = "512" align = "center">
 
