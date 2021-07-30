@@ -26,7 +26,10 @@ Expression maping using the [dlib-opencv library](https://www.pyimagesearch.com/
  * Nose<br>
  * Mouth<br>
  * Jawline<br>
- These points are quite sensitive to emotions. So, we used these landmarks to train our model.
+ These points are quite sensitive to emotions. So, we used these landmarks to train our model.<br><br>
+ BELOW SHOWN IMAGES ARE SOME DEMO OF DILIB :<br>
  
- <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/facial_landmarks_example_01_result.jpg" height = "512" width = "512" align = "center">
+ <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/facial_landmarks_example_01_result.jpg" height = "512" width = "512" align = "center"><br>
+ <br>
+ <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/Visualizing-the-68-facial-landmark-coordinates-from-Dlib-landmark-detector-1_Q640.jpg" height = "512" wodth = "512"><br>
 
