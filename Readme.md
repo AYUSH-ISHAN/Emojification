@@ -37,5 +37,18 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
 
  <h2> Training the model:- </h2>
  
+ ## Approaches we used
+ 
+ - CNN on Kaggle dataset
+ 
+ - BaseModel_Resnet - Resnet on Kaggle Dataset
+ 
+ - Neural network on facial landmarks from dlib on kaggle dataset
+ 
+ - Support Vector Machine on facial landmarks from dlib on kaggle dataset 
+ 
+ - CNN on AffectNet Dataset
+
+
  
  
