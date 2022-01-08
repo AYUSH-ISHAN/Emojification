@@ -35,9 +35,7 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
  <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/Visualizing-the-68-facial-landmark-coordinates-from-Dlib-landmark-detector-1_Q640.jpg" height = "512" wodth = "512"><br>
  </p>
 
- <h2> Training the model:- </h2>
- 
- ## Approaches we used
+ ## Model Training approaches we used
  
  - CNN on Kaggle dataset
  
