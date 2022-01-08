@@ -16,9 +16,9 @@ The training set consists of 28,709 examples. The public test set used for the l
 https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data).
 
  
- # <h2>LIBRARY USED:</h2>
+ <h2> Preprocessing:-</h2>
  
-Expression maping using the [dlib-opencv library](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) which plots landmarks on the  face. Facial landmarks are used to localize and represent salient regions of the face, such as:
+Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) on the images. Facial landmarks are used to localize and represent salient regions of the face, such as:
 
  
  * Eyes<br>
@@ -26,10 +26,16 @@ Expression maping using the [dlib-opencv library](https://www.pyimagesearch.com/
  * Nose<br>
  * Mouth<br>
  * Jawline<br>
- These points are quite sensitive to emotions. So, we used these landmarks to train our model.<br><br>
+ 
+ These points are quite sensitive to emotions. So, we trained our model on the relative positions of the jaw, eyes and other salient features.<br><br>
  BELOW SHOWN IMAGES ARE SOME DEMO OF DILIB :<br>
  <p align = "center">
  <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/facial_landmarks_example_01_result.jpg" height = "512" width = "512" align = "center"><br>
  <br>
  <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/Visualizing-the-68-facial-landmark-coordinates-from-Dlib-landmark-detector-1_Q640.jpg" height = "512" wodth = "512"><br>
  </p>
+
+ <h2> Training the model:- </h2>
+ 
+ 
+ 
