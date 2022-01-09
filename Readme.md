@@ -22,7 +22,7 @@ https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression
  
  <h4>Model Structure: </h4>
  
-   Model: "sequential"
+              Model: "sequential"
               _________________________________________________________________
               Layer (type)                 Output Shape              Param #   
               =================================================================
