@@ -18,10 +18,9 @@ https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression
  
  
  ## Model Training approaches we used
- <ul>
-  <li><h3><B>CNN on Kaggle dataset</B></h3></li>
-  <li><h3><B>BaseModel_Resnet - Resnet on Kaggle Dataset</B></h3></li>
-  <li><h3><B>Neural network on facial landmarks from dlib on kaggle dataset</B></h3>
+<h3><B>CNN on Kaggle dataset</B></h3>
+<h3><B>BaseModel_Resnet - Resnet on Kaggle Dataset</B></h3>
+<h3><B>Neural network on facial landmarks from dlib on kaggle dataset</B></h3>
   
  <h4> Preprocessing:-</h4>
  
@@ -42,11 +41,10 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
  </p><br>
    <br>
    <h4>Structure of Model Used to train :</h4>
-  </li><br>
   <br>
-  <li><h3><B>Support Vector Machine on facial landmarks from dlib on kaggle dataset</B></h3></li>
-  <li><h3><B>CNN on AffectNet Dataset</B></h3></li>
-  <li><h3><B></B></h3></li>
+  <br>
+<h3><B>Support Vector Machine on facial landmarks from dlib on kaggle dataset</B></h3>
+<h3><B>CNN on AffectNet Dataset</B></h3>
   
 
 
