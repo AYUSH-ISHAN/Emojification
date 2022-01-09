@@ -215,8 +215,7 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
   
  <h4>Model Architecure: </h4>
  
- model.summary()
-Model: "sequential_1"
+           Model: "sequential_1"
            _________________________________________________________________
            Layer (type)                 Output Shape              Param #   
            =================================================================
