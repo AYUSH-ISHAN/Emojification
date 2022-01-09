@@ -7,12 +7,12 @@
  <h3>Emojis Used:</h3>
  <table>
   <tr></tr>
-  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/0.jpeg" height ="50" width ="50"/></td>
-  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/1.jpeg" height ="50" width ="50"/></td>
-  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/2.jpeg" height ="50" width ="50"/></td>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/0.jpeg" height ="200" width ="200"/></td>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/1.jpeg" height ="200" width ="200"/></td>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/2.jpeg" height ="200" width ="200"/></td>
   </tr>
  <tr>
-  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/3.jpeg" height ="50" width ="50"/></td>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/3.jpeg" height ="200" width ="200"/></td>
   <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/4.jpeg" height ="50" width ="50"/></td>
   <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/5.jpeg" height ="50" width ="50"/></td>
  </tr>
