@@ -209,7 +209,7 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
 
 <h3><B>Support Vector Machine on facial landmarks from dlib on kaggle dataset</B></h3>
  
- <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/svm.jpeg" height= "500" width = "500" align="center"/>
+ <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/svm.jpeg" height= "300" width = "300" align="center"/>
 <h3><B>CNN on AffectNet Dataset</B></h3>
   
 
