@@ -155,6 +155,7 @@ https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression
                _________________________________________________________________
  
  Now, here 'lambda' denotes the Resnets architecture as the base model.
+ In this we feed in images after preprocessing and resizing it to size of (48, 48). And output is a FCN layer of 7 nodes.
   
 <h3><B>Neural network on facial landmarks from dlib on kaggle dataset</B></h3>
   
@@ -230,6 +231,9 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
             Non-trainable params: 2,944
             _________________________________________________________________
 
+ 
+ So, in this model we feed a (68, 2) in batches. And finally after training, we take out the output from FCN layer of 7 nodes.
+ 
 <h3><B>Support Vector Machine on facial landmarks from dlib on kaggle dataset :</B></h3>
  
  <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/svm.jpeg" height= "300" width = "300" align="center"/><br>
