@@ -37,8 +37,8 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
  These points are quite sensitive to emotions. So, we trained our model on the relative positions of the jaw, eyes and other salient features.<br><br>
  BELOW SHOWN IMAGES ARE SOME DEMO OF DILIB :<br>
  <p align = "center">
- <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/facial_landmarks_example_01_result.jpg" height = "400" width = "400" align = "left">
- <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/Visualizing-the-68-facial-landmark-coordinates-from-Dlib-landmark-detector-1_Q640.jpg" height = "400" wodth = "400" align = "right"><br>
+ <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/facial_landmarks_example_01_result.jpg" height = "395" width = "395" align = "left">
+ <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/Visualizing-the-68-facial-landmark-coordinates-from-Dlib-landmark-detector-1_Q640.jpg" height = "395" wodth = "395" align = "right"><br>
  </p><br>
    <br>
    <h4>Structure of Model Used to train :</h4>
