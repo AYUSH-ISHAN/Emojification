@@ -4,6 +4,29 @@
 <h2>INTRODUCTION:<h2>
  This project is based on Computer Vision which detects your facial expression and converts it to an emoji!<br>
  
+ <h3>Emojis Used:</h3>
+ <table>
+  <tr></tr>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/0.jpeg"/></td>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/1.jpeg"/></td>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/2.jpeg"/></td>
+  </tr>
+ <tr>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/3.jpeg"/></td>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/4.jpeg"/></td>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/5.jpeg"/></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img src="https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/emojis/6.jpeg"/></td>
+  <td></td>
+ </tr>
+ </table>
+ 
+ 
+ 
+ 
+ 
 <h2>DATASET:</h2>
  The data consists of 48x48 pixel grayscale images of faces. The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image. The task is to categorize each face based on the emotion shown in the facial expression in to one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).
 
@@ -207,7 +230,7 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
             Non-trainable params: 2,944
             _________________________________________________________________
 
-<h3><B>Support Vector Machine on facial landmarks from dlib on kaggle dataset</B></h3>
+<h3><B>Support Vector Machine on facial landmarks from dlib on kaggle dataset :</B></h3>
  
  <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/svm.jpeg" height= "300" width = "300" align="center"/><br>
  
