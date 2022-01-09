@@ -152,7 +152,61 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
  <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/facial_landmarks_example_01_result.jpg" height = "390" width = "390" align = "left">
  <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/Visualizing-the-68-facial-landmark-coordinates-from-Dlib-landmark-detector-1_Q640.jpg" height = "390" wodth = "390" align = "right"><br>
  <br>
-<h4>Model Architeture : 
+<h4>Model Architeture : <h4>
+ 
+             Model: "sequential"
+            _________________________________________________________________
+            Layer (type)                 Output Shape              Param #   
+            =================================================================
+            conv2d (Conv2D)              (None, 68, 2, 128)        256       
+            _________________________________________________________________
+            batch_normalization (BatchNo (None, 68, 2, 128)        512       
+            _________________________________________________________________
+            max_pooling2d (MaxPooling2D) (None, 34, 1, 128)        0         
+            _________________________________________________________________
+            conv2d_1 (Conv2D)            (None, 34, 1, 128)        16512     
+            _________________________________________________________________
+            batch_normalization_1 (Batch (None, 34, 1, 128)        512       
+            _________________________________________________________________
+            conv2d_2 (Conv2D)            (None, 34, 1, 256)        33024     
+            _________________________________________________________________
+            batch_normalization_2 (Batch (None, 34, 1, 256)        1024      
+            _________________________________________________________________
+            max_pooling2d_1 (MaxPooling2 (None, 17, 1, 256)        0         
+            _________________________________________________________________
+            conv2d_3 (Conv2D)            (None, 17, 1, 256)        65792     
+            _________________________________________________________________
+            batch_normalization_3 (Batch (None, 17, 1, 256)        1024      
+            _________________________________________________________________
+            conv2d_4 (Conv2D)            (None, 17, 1, 256)        65792     
+            _________________________________________________________________
+            batch_normalization_4 (Batch (None, 17, 1, 256)        1024      
+            _________________________________________________________________
+            max_pooling2d_2 (MaxPooling2 (None, 9, 1, 256)         0         
+            _________________________________________________________________
+            conv2d_5 (Conv2D)            (None, 9, 1, 256)         65792     
+            _________________________________________________________________
+            batch_normalization_5 (Batch (None, 9, 1, 256)         1024      
+            _________________________________________________________________
+            conv2d_6 (Conv2D)            (None, 9, 1, 128)         32896     
+            _________________________________________________________________
+            batch_normalization_6 (Batch (None, 9, 1, 128)         512       
+            _________________________________________________________________
+            max_pooling2d_3 (MaxPooling2 (None, 5, 1, 128)         0         
+            _________________________________________________________________
+            conv2d_7 (Conv2D)            (None, 5, 1, 64)          8256      
+            _________________________________________________________________
+            batch_normalization_7 (Batch (None, 5, 1, 64)          256       
+            _________________________________________________________________
+            flatten (Flatten)            (None, 320)               0         
+            _________________________________________________________________
+            dense (Dense)                (None, 7)                 2247      
+            =================================================================
+            Total params: 296,455
+            Trainable params: 293,511
+            Non-trainable params: 2,944
+            _________________________________________________________________
+
 <h3><B>Support Vector Machine on facial landmarks from dlib on kaggle dataset</B></h3>
 <h3><B>CNN on AffectNet Dataset</B></h3>
   
