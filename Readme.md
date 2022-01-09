@@ -308,7 +308,9 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
            Trainable params: 105,823,366
            Non-trainable params: 3,200
            _________________________________________________________________
-
+ 
+ Here, the images are feed in by preprocessing and resizing it to size of (224, 224) and the output is again a FCN of 6 nodes (we neglected the emotions
+ which are suffering from data insufficency.
 
  # Results: 
  
