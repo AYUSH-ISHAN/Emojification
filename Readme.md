@@ -39,10 +39,7 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
  <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/facial_landmarks_example_01_result.jpg" height = "390" width = "390" align = "left">
  <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/Visualizing-the-68-facial-landmark-coordinates-from-Dlib-landmark-detector-1_Q640.jpg" height = "390" wodth = "390" align = "right"><br>
  <br>
-   
-<h4>Structure of Model Used to train :</h4>
-  <br>
-  <br>
+<h4>Model Architeture : 
 <h3><B>Support Vector Machine on facial landmarks from dlib on kaggle dataset</B></h3>
 <h3><B>CNN on AffectNet Dataset</B></h3>
   
