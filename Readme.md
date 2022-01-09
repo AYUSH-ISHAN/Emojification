@@ -16,7 +16,16 @@ The training set consists of 28,709 examples. The public test set used for the l
 https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data).
 
  
- <h2> Preprocessing:-</h2>
+ 
+ ## Model Training approaches we used
+ 
+ - CNN on Kaggle dataset
+ 
+ - BaseModel_Resnet - Resnet on Kaggle Dataset
+ 
+ - Neural network on facial landmarks from dlib on kaggle dataset
+ 
+  <h2> Preprocessing:-</h2>
  
 Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) on the images. Facial landmarks are used to localize and represent salient regions of the face, such as:
 
@@ -35,13 +44,6 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
  <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/Visualizing-the-68-facial-landmark-coordinates-from-Dlib-landmark-detector-1_Q640.jpg" height = "512" wodth = "512"><br>
  </p>
 
- ## Model Training approaches we used
- 
- - CNN on Kaggle dataset
- 
- - BaseModel_Resnet - Resnet on Kaggle Dataset
- 
- - Neural network on facial landmarks from dlib on kaggle dataset
  
  - Support Vector Machine on facial landmarks from dlib on kaggle dataset 
  
