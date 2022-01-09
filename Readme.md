@@ -20,6 +20,47 @@ https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression
  ## Model Training approaches we used
 <h3><B>CNN on Kaggle dataset</B></h3>
 <h3><B>BaseModel_Resnet - Resnet on Kaggle Dataset</B></h3>
+ 
+ <h4>Model Structure: </h4>
+ 
+                _________________________________________________________________
+               Layer (type)                 Output Shape              Param #   
+               =================================================================
+               lambda_1 (Lambda)            (None, 48, 48, 3)         0         
+               _________________________________________________________________
+               resnet50 (Functional)        (None, 2, 2, 2048)        23587712  
+               _________________________________________________________________
+               flatten_1 (Flatten)          (None, 8192)              0         
+               _________________________________________________________________
+               batch_normalization_4 (Batch (None, 8192)              32768     
+               _________________________________________________________________
+               dense_4 (Dense)              (None, 256)               2097408   
+               _________________________________________________________________
+               dropout_3 (Dropout)          (None, 256)               0         
+               _________________________________________________________________
+               batch_normalization_5 (Batch (None, 256)               1024      
+               _________________________________________________________________
+               dense_5 (Dense)              (None, 128)               32896     
+               _________________________________________________________________
+               dropout_4 (Dropout)          (None, 128)               0         
+               _________________________________________________________________
+               batch_normalization_6 (Batch (None, 128)               512       
+               _________________________________________________________________
+               dense_6 (Dense)              (None, 64)                8256      
+               _________________________________________________________________
+               dropout_5 (Dropout)          (None, 64)                0         
+               _________________________________________________________________
+               batch_normalization_7 (Batch (None, 64)                256       
+               _________________________________________________________________
+               dense_7 (Dense)              (None, 7)                 455       
+               =================================================================
+               Total params: 25,761,287
+               Trainable params: 17,132,295
+               Non-trainable params: 8,628,992
+               _________________________________________________________________
+ 
+ Now, here 'lambda' denotes the Resnets architecture as the base model.
+  
 <h3><B>Neural network on facial landmarks from dlib on kaggle dataset</B></h3>
   
  <h4> Preprocessing:-</h4>
