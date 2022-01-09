@@ -21,26 +21,29 @@ https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression
  <ul>
   <li><h3><B>CNN on Kaggle dataset</B></h3></li>
   <li><h3><B>BaseModel_Resnet - Resnet on Kaggle Dataset</B></h3></li>
-  <li><h3><B>Neural network on facial landmarks from dlib on kaggle dataset</B></h3></li>
+  <li><h3><B>Neural network on facial landmarks from dlib on kaggle dataset</B></h3>
   
-  <h4> Preprocessing:-</h4>
+ <h4> Preprocessing:-</h4>
  
-  Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) on the images. Facial landmarks are used to localize and represent salient regions of the face, such as:
+Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) on the images. Facial landmarks are used to localize and represent salient regions of the face, such as:
 
 
-   * Eyes<br>
-   * Eyebrows<br>
-   * Nose<br>
-   * Mouth<br>
-   * Jawline<br>
+ * Eyes<br>
+ * Eyebrows<br>
+ * Nose<br>
+ * Mouth<br>
+ * Jawline<br>
 
-   These points are quite sensitive to emotions. So, we trained our model on the relative positions of the jaw, eyes and other salient features.<br><br>
-   BELOW SHOWN IMAGES ARE SOME DEMO OF DILIB :<br>
+ These points are quite sensitive to emotions. So, we trained our model on the relative positions of the jaw, eyes and other salient features.<br><br>
+ BELOW SHOWN IMAGES ARE SOME DEMO OF DILIB :<br>
  <p align = "center">
-   <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/facial_landmarks_example_01_result.jpg" height = "400" width = "400" align = "left">
-   <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/Visualizing-the-68-facial-landmark-coordinates-from-Dlib-landmark-detector-1_Q640.jpg" height = "400" wodth = "400" align = "right"><br>
-   </p><br>
-
+ <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/facial_landmarks_example_01_result.jpg" height = "445" width = "445" align = "left">
+ <img src = "https://github.com/AYUSH-ISHAN/Emoji_Prediction_Project/blob/main/Visualizing-the-68-facial-landmark-coordinates-from-Dlib-landmark-detector-1_Q640.jpg" height = "445" wodth = "445" align = "right"><br>
+ </p><br>
+   <br>
+   <h4>Structure of Model Used to train :</h4>
+  </li><br>
+  <br>
   <li><h3><B>Support Vector Machine on facial landmarks from dlib on kaggle dataset</B></h3></li>
   <li><h3><B>CNN on AffectNet Dataset</B></h3></li>
   <li><h3><B></B></h3></li>
