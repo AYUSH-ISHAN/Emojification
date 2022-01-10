@@ -236,7 +236,7 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
  
 <h3><B>Support Vector Machine on facial landmarks from dlib on kaggle dataset :</B></h3>
  
- <img src = "https://github.com/AYUSH-ISHAN/Emojification/blob/main/svm.drawio.png" height= "350" width = "600" align="center"/><br>
+ <img src = "https://github.com/AYUSH-ISHAN/Emojification/blob/main/svm.drawio.png" height= "500" width = "900" align="center"/><br>
  
 <h3><B>CNN on AffectNet Dataset</B></h3>
   
