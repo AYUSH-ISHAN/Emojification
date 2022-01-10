@@ -315,6 +315,6 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
 # Results :
 
 
-https://user-images.githubusercontent.com/58986949/115314310-805b2780-a1a7-11eb-8558-648a367ea231.mp4
+<img src = "https://github.com/AYUSH-ISHAN/Emojification/blob/main/emoji.gif" align = "center"/>
  
  
