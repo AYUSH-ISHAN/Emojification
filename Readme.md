@@ -312,7 +312,9 @@ Obtained the facial landmaarks using the [dlib-opencv library](https://www.pyima
  Here, the images are feed in by preprocessing and resizing it to size of (224, 224) and the output is again a FCN of 6 nodes (we neglected the emotions
  which are suffering from data insufficency.
 
- # Results: 
- 
+# Results :
+
+
+https://user-images.githubusercontent.com/58986949/115314310-805b2780-a1a7-11eb-8558-648a367ea231.mp4
  
  
